@@ -34,6 +34,3 @@ steps:
 - ${{ each pkg in parameters.npmpckgs }}:
   - script: npm install ${{ pkg }} 
     displayName: 'npm install ${{ pkg }}'
-
-- script: npm run build
-  displayName: 'npm build'
