@@ -26,11 +26,24 @@ parameters:
       - 'postgres@1'
 
 steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '14.x'
-  displayName: 'Install Node.js'
+# - task: NodeTool@0
+#   inputs:
+#     versionSpec: '14.x'
+#   displayName: 'Install Node.js'
 
-- ${{ each pkg in parameters.npmpckgs }}:
-  - script: npm install ${{ pkg }} 
-    displayName: 'npm install ${{ pkg }}'
+# - ${{ each pkg in parameters.npmpckgs }}:
+#   - script: npm install ${{ pkg }} 
+#     displayName: 'npm install ${{ pkg }}'
+
+# - task: ArchiveFiles@2
+#   displayName: '_week7-app'
+#   inputs:
+#     rootFolderOrFile: '_week7-app'
+#     archiveType: tar
+#     archiveFile: '_week7-app'
+
+- task: ShaykiAbramczyk.printAllVariables.printAllVariables.printAllVariables@1
+  displayName: 'Print all variables'
+
+- task: Bash@3
+  inputs: pwd
