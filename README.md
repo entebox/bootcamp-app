@@ -1,3 +1,8 @@
+# base project - for the bootcamp.
+this repository connected to other repositories as a part of a project, pleas see below:
+https://github.com/entebox/bootcamp-week6_basic_ansible.git
+https://github.com/entebox/bootcamp_week5-terraform_Project.git
+
 # Node.js Weight Tracker
 
 ![Demo](docs/build-weight-tracker-app-demo.gif)
