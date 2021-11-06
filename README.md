@@ -1,5 +1,5 @@
 # base project - for the bootcamp.
-this repository connected to other repositories as a part of a project, pleas see below:
+this repository connected to other repositories as a part of a project, please see below:
 
 https://github.com/entebox/bootcamp-week6_basic_ansible.git
 
